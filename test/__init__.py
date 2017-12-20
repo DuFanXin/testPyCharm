@@ -10,6 +10,6 @@ a = tf.constant(2)
 b = tf.constant(3)
 x = tf.add(a, b)
 with tf.Session() as s:
-	writer = tf.summary.FileWriter('./graph', s.graph)
+	#writer = tf.summary.FileWriter('./graph', s.graph)
 	print(s.run(x))
-	writer.close()
+	#writer.close()
